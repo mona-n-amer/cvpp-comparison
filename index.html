@@ -70,9 +70,10 @@
         <h1>Community-Based Virtual Power Plants: Comparative Analysis</h1>
         
         <!-- Download Button -->
-        <a href="data.xlsx" download="cvpp_data.xlsx" class="download-link">
-            ⬇️ Download Raw Data (.xlsx)
+        <a href="data.csv" download="cvpp_data.csv" class="download-link">
+        ⬇️ Download Raw Data (.csv)
         </a>
+
 
         <br><br>
 
@@ -94,7 +95,7 @@
             const xhr = new XMLHttpRequest();
             
             // IMPORTANT: Change 'data.xlsx' to match the exact filename you uploaded
-            xhr.open('GET', 'data.xlsx'); 
+            xhr.open('GET', 'data.csv'); 
             xhr.responseType = 'arraybuffer';
 
             xhr.onload = function(e) {
